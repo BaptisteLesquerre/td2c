@@ -42,12 +42,28 @@ void incr_score(int moves){
 void Game::affichage(std::vector<int> evolvtab){
        std::cout<<"score = "<<_score<<"|| moves = "<<_moves <<std::endl;
        std::cout<<" "<<std::endl;
-       for ((int i=0;int i<4;i++))
-            for ((int j=0;int j<4; i++))
+       for ((int i=0;int i<4;i++)){
+            for ((int j=0;int j<4; i++)){
                  std::cout<<" | "<< evolvtab[i+j] <<std::endl;
+            }
+       }     
        std::cout <<" "<<std::endl;
        std::cout<<"up = 1   down = 2   right = 3   left = 4"<<std::endl;
        std::cout<<"               quit = 0" endl;
 }
 
 void Game::up(std::vector<int> evolvtab){
+
+}
+
+void Game::down(std::vector<int> evolvtab){
+
+}
+
+void Game::right(std::vector<int> evolvtab){
+
+}
+
+void Game::left(std::vector<int> evolvtab){
+
+}
